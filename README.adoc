@@ -1,31 +1,38 @@
 = Food Recognition Application
-== Common information
 
-Based on Python+OpenCV+YOLOv4
+Based on Python + OpenCV + YOLOv4.
+
+Pre-trained weights based on dataset `UECFOOD100`.
 
 == Installation and using
-=== Preparing YOLO (You Only Look Once)
 * Download pre-trained weights and place it to the working directory or use command:
 [source]
 ----
-$ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137
+$ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
 ----
 
 * Download configuration and place it to the working directory or use command:
 [source]
 ----
-$ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4-custom.cfg
+$ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.cfg
 ----
 
 * Execute command to install all other requirements:
 [source]
 ----
-$ pip3 install -r requirements.txt
+$ pip install -r requirements.txt
 ----
 
 === Command format
 [source]
 ----
-$ python yolo_opencv.py --image /path/to/input/image --config /path/to/config/file --weights /path/to/weights/file --classes /path/to/classes/file
+$ python src/main.py --image assets/image_name
+----
+Optionally you can specify other arguments:
+[source]
+----
+--config /path/to/config/file
+--weights /path/to/weights/file
+--classes /path/to/classes/file
 ----
 
