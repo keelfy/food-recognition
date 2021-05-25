@@ -1,0 +1,10 @@
+# Python
+venv
+.idea
+__pycache__
+
+# YOLOv4
+yolov4.*
+
+# Program
+recognition-result*
