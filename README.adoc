@@ -1,6 +1,6 @@
 = Food Recognition Application
 
-Based on Python + OpenCV + YOLOv4.
+Based on Python 3 + OpenCV + YOLOv4.
 
 Pre-trained weights based on dataset `UECFOOD100`.
 
