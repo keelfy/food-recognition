@@ -2,7 +2,7 @@
 
 Based on Python 3 + OpenCV + YOLOv4.
 
-Pre-trained weights based on dataset `UECFOOD100`.
+TODO: _Pre-trained weights based on dataset `UECFOOD100`._
 
 == Installation and using
 * Download pre-trained weights and place it to the working directory or use command:
