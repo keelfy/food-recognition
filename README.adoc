@@ -17,6 +17,12 @@ $ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_opt
 $ wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.cfg
 ----
 
+* Download classes info and place it to the working directory or use command:
+[source]
+----
+$ wget https://keelfy.info/repository/yolov4.classes
+----
+
 * Execute command to install all other requirements:
 [source]
 ----
