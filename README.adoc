@@ -17,7 +17,7 @@ Food recognition service with possibility to detect pre-trained dishes or any fo
 
 == Presentation
 
-https://drive.google.com/file/d/1-V1sWI6QJ41-72F3bPG-J0bkGmmuncqV/view?usp=sharing[Link (Google Drive)]
+https://drive.google.com/file/d/1-V1sWI6QJ41-72F3bPG-J0bkGmmuncqV/view?usp=sharing[Link (Google Drive) RU]
 
 == Installation and using
 * Download pre-trained weights and place it to the working directory or use command:
