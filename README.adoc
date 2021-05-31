@@ -5,12 +5,12 @@ Based on Python 3 + OpenCV + YOLOv4.
 TODO: _Pre-trained weights based on dataset `UECFOOD100`._
 
 Developed by:
-Белова Е.Ю. (Belova E.Y.)
-Кузьмин Е.О. (Kuzmin E.O.)
+* Кузьмин Е.О. (Kuzmin E.O.)
+* Белова Е.Ю. (Belova E.Y.)
 
 == Task
 Food recognition service with possibility to detect pre-trained dishes or any food on source image.
-// Сервис распознавания еды с возможностью определять блюда или любую еды на исходном изображении.
+[Сервис распознавания еды с возможностью определять блюда или любую еды на исходном изображении.]
 
 == Installation and using
 * Download pre-trained weights and place it to the working directory or use command:
